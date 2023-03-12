@@ -2,5 +2,8 @@
 if __name__ == "__main__":
     from add_0 import add
 
-    result = add(1, 2)
-    print("1 + 2 = ", result)
+    a = 1
+    b = 2
+
+    result = add(a, b)
+    print("{} + {} = {}".format(a, b, result))
