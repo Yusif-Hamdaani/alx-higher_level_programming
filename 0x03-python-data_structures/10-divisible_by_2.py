@@ -1,13 +1,16 @@
 #!/usr/bin/python3
 
 def divisible_by_2(my_list=[]):
-    # Initialize an empty list to store the results
-    result = []
+    # Create an empty list to store the results
+    results = []
 
-    # Loop over the elements in the original list and check if they are divisible by 2
+    # Loop through each element in the input list
     for num in my_list:
-        # Append True if the number is divisible by 2, False otherwise
-        result.append(num % 2 == 0)
-
-    # Return the result
-    return result
+        # Check if the element is divisible by 2
+        if num % 2 == 0:
+            results.append(True)
+        else:
+            results.append(False)
+    
+    # Return the list of results
+    return results
