@@ -1,1 +1,1 @@
-One string object is created.
+One

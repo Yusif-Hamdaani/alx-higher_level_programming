@@ -1,1 +1,1 @@
-No new string objects are created, as the second assignment points to the same string object created in the first line.
+No
